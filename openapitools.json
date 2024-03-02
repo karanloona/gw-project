@@ -1,0 +1,15 @@
+{
+    "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+    "spaces": 2,
+    "generator-cli": {
+      "version": "7.2.0",
+      "generators": {
+        "micro-project": {
+            "generatorName": "typescript-nestjs",
+            "inputSpec": "http://localhost:3002/api.json",
+            "output": "libs/api/micro-project/src/gen"
+        }
+      }
+    }
+  }
+  
